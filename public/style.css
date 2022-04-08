@@ -1,0 +1,613 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-link {
+  margin: 10px;
+  font-size: 14px;
+  line-height: 20px;
+}
+.btn-nav {
+  margin: 10px;
+}
+.modal-backdrop.show {
+  z-index: 50;
+}
+.icon {
+  background-color: blue;
+}
+.hero {
+  background-color: #f1f3ff;
+  background-size: cover;
+  padding: 25px;
+  padding-top: 50px;
+  position: relative;
+  z-index: 0;
+  justify-content: space-around;
+}
+
+.hero-desc h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 54px;
+}
+.hero-desc p {
+  font-size: 14px;
+}
+.container-hero {
+  margin: 0;
+}
+
+.position-absolute {
+  width: 50%;
+  margin-top: 7.6rem;
+  margin-left: -11.9px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.bg-biru {
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  width: 49%;
+  height: 51%;
+  margin-top: 140px;
+}
+.mobil {
+  position: relative;
+}
+
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  position: absolute;
+}
+.vector {
+  align-items: center;
+  justify-content: center;
+  padding: 3px;
+}
+.bg-abu {
+  z-index: -1;
+  right: 455px;
+}
+
+.card-why-us {
+  width: 250px;
+  height: 180px;
+}
+.card-body-whyus {
+  margin-top: 50px;
+}
+.card-text {
+  font-size: 14px;
+}
+.rounded-one {
+  margin: 3px;
+  height: 30px;
+  width: 30px;
+  background-color: #f9cc00;
+  border-radius: 50%;
+  position: absolute;
+}
+.rounded-two {
+  margin: 3px;
+  height: 30px;
+  width: 30px;
+  background-color: #fa2c5a;
+  border-radius: 50%;
+  position: absolute;
+}
+.rounded-three {
+  margin: 3px;
+  height: 30px;
+  width: 30px;
+  background-color: #0d28a6;
+  border-radius: 50%;
+  position: absolute;
+}
+.rounded-four {
+  margin: 3px;
+  height: 30px;
+  width: 30px;
+  background-color: #5cb85f;
+  border-radius: 50%;
+  position: absolute;
+}
+.iconwhyus {
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 1px;
+}
+
+.lorem_box {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.lorem_satu {
+  background-color: red;
+  width: 40vw;
+  /* display: inline-block; */
+}
+
+.lorem_dua {
+  background-color: green;
+  width: 40vw;
+  /* display: inline-blox; */
+}
+
+.lorem_tiga {
+  background-color: yellow;
+  width: 40vw;
+  /* display: inline-blox; */
+}
+
+.accordion-header {
+  margin-top: 20px;
+  border-top: 1px solid lightblue;
+}
+
+.card-body {
+  width: 900 px;
+  height: 200px;
+  background-color: #f1f3ff;
+}
+
+.img-testi {
+  size: 10%;
+  margin-top: 20px;
+}
+.checked {
+  color: orange;
+}
+.service-desc h1 {
+  font-size: 27px;
+  line-height: 36px;
+}
+
+.sewa_mobil {
+  margin-top: 5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.sewa_biru {
+  width: 100%;
+}
+@media only screen and (min-width: 320px) {
+  /* HEADER */
+  .logo {
+    margin-left: 1%;
+    margin-top: 1rem;
+  }
+
+  /* LOGO */
+  .hero {
+    padding-top: 1rem;
+    margin-left: 0;
+  }
+  .hero-desc h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 150%;
+  }
+
+  .hero-desc p {
+    margin-top: 1rem;
+    line-height: 18px;
+    font-size: 13.5px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .hero-desc button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mobil {
+    margin-top: 2rem;
+    height: auto;
+    position: relative;
+  }
+  .bg-biru {
+    width: 90%;
+    height: auto;
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  /* OURSERVICE */
+  .icon-service {
+    width: 90%;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service-desc {
+    margin-left: 2rem;
+  }
+  .service-desc h1 {
+    margin-top: 3rem;
+    font-size: 28px;
+    line-height: 36px;
+    width: 90%;
+    text-align: justify;
+  }
+
+  .desc-sewa {
+    margin-top: 1rem;
+    width: 90%;
+    text-align: justify;
+  }
+
+  /* WHYUS */
+
+  .judul {
+    text-align: center;
+  }
+
+  .card-why-us {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* .img-testi {
+    margin-left: 120%;
+  }
+  .desc-testi {
+    text-align: center;
+    padding-top: 1rem;
+    margin-left: 15%;
+  }
+  .card-body {
+    height: 30%;
+  } */
+  .sewa_mobil {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .sewa_biru {
+    height: 500px;
+  }
+  .sewa_biru h1 {
+    margin-top: 3rem;
+  }
+
+  #faq {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* HEADER */
+  .logo {
+    margin-left: 1%;
+    margin-top: 1rem;
+  }
+
+  /* LOGO */
+  .hero {
+    padding-top: 1rem;
+    margin-left: 0;
+  }
+  .hero-desc h1 {
+    width: 100%;
+    font-size: 36px;
+    line-height: 150%;
+  }
+
+  .hero-desc p {
+    margin-top: 1rem;
+    line-height: 18px;
+    font-size: 13.5px;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .hero-desc button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mobil {
+    margin-top: 2rem;
+    height: auto;
+    position: relative;
+  }
+  .bg-biru {
+    width: 90%;
+    height: 27%;
+    position: absolute;
+    margin-top: 30%;
+  }
+
+  /* OURSERVICE */
+  .icon-service {
+    width: 90%;
+    margin-top: 4rem;
+  }
+
+  .service-desc {
+    margin-left: 1rem;
+    padding-top: 2rem;
+  }
+  .service-desc h1 {
+    font-size: 27px;
+    line-height: 36px;
+    width: 92%;
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .service-desc p {
+    font-size: 14px;
+    width: 92%;
+    text-align: justify;
+  }
+  .desc-sewa {
+    margin-top: 1rem;
+  }
+
+  /* WHYUS */
+
+  .judul {
+    text-align: center;
+  }
+
+  .card-why-us {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .desc-testi p {
+    font-size: 10px;
+  }
+  .sewa_mobil {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .sewa_biru h1 {
+    margin-top: 3rem;
+  }
+
+  #faq {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* HEADER */
+  .logo {
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  /* LOGO */
+  .hero {
+    margin-right: 0;
+    padding-bottom: 9%;
+  }
+  .hero-desc h1 {
+    margin-right: 0;
+    margin-top: auto;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 50px;
+    width: 120%;
+  }
+  .hero-desc p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 18px;
+  }
+  .hero-desc button {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .mobil {
+    margin-top: 33%;
+    height: auto;
+    position: relative;
+  }
+  .bg-biru {
+    width: 48%;
+    height: 35%;
+    position: absolute;
+    padding-top: 0;
+  }
+
+  /* OURSERVICE */
+  .icon-service {
+    width: 150%;
+    height: 100%;
+    margin-top: 80%;
+  }
+
+  .service-desc {
+    padding: 1rem;
+  }
+  .service-desc h1 {
+    font-size: 27px;
+    line-height: 36px;
+    width: 100%;
+  }
+
+  .service-desc p {
+    font-size: 14px;
+    line-height: 21px;
+    width: 100%;
+  }
+
+  .desc-sewa {
+    line-height: 10%;
+  }
+
+  /* WHYUS */
+
+  .judul {
+    text-align: center;
+  }
+
+  .col {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  /* .img-testi {
+    margin-left: 10%;
+  }
+  .desc-testi {
+    text-align: start;
+    margin-left: 35%;
+    padding-top: -10rem;
+  }
+  .card-body {
+    height: 200px;
+  } */
+  .sewa_mobil {
+    margin-top: 5rem;
+    padding-left: 1rem;
+  }
+  .sewa_biru {
+    height: 320px;
+  }
+
+  #faq {
+    margin-top: 1rem;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* HEADER */
+  .logo {
+    margin-left: 1%;
+    margin-top: 1rem;
+  }
+
+  /* LOGO */
+  .hero {
+    padding-top: 1rem;
+    margin-left: 0;
+    padding-bottom: 0%;
+  }
+  .hero-desc h1 {
+    margin-top: 2rem;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 54px;
+    width: 120%;
+  }
+  .hero-desc p {
+    font-size: 14px;
+    width: 80%;
+    line-height: 20px;
+  }
+
+  .hero-desc button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .mobil {
+    position: relative;
+    margin-top: 5%;
+  }
+  .bg-biru {
+    position: absolute;
+    z-index: -10;
+    overflow: hidden;
+    width: 49%;
+    height: 56%;
+    margin-top: 140px;
+  }
+
+  /* OURSERVICE */
+  .icon-service {
+    width: 120%;
+    margin-top: 30%;
+  }
+  .service-desc {
+    padding: 5rem;
+    margin-top: 2rem;
+  }
+  .service-desc h1 {
+    font-size: 27px;
+    line-height: 36px;
+  }
+
+  .service-desc p {
+    font-size: 16px;
+    line-height: 22px;
+    width: 100%;
+  }
+  .desc-sewa {
+    margin-top: 5rem;
+    line-height: 30px;
+  }
+  .circle {
+    margin-right: 1rem;
+  }
+
+  /* WHYUS */
+
+  .judul {
+    text-align: center;
+  }
+
+  .card-why-us {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sewa_mobil {
+    margin-top: 5rem;
+    padding-left: 1rem;
+  }
+  .sewa_biru {
+    height: 320px;
+  }
+  .col {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #faq {
+    margin-top: 1rem;
+  }
+}
+/* .circle_footer {
+  height: 30px;
+  width: 30px;
+  background-color: #0d28a6;
+  border-radius: 50%;
+  position: absolute;
+} */
+/* .nav > a:focus,
+.nav > a:hover {
+  text-decoration: none;
+  background-color: #0000;
+} */
+/* .navbar-light .navbar-nav .nav-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+} */
+/* a:hover {
+  display: none;
+} */
+/* .hero {
+  background: #f1f3ff;
+} */
+
+
+#imgCar{
+  width: 325px;
+  height: 250px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  margin-left: 14px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
